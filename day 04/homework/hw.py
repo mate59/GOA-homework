@@ -1,10 +1,10 @@
 #input - შეაქვს ინფორმაცია საიტში
 #output - გამოაქვს ინფორმაცია საიტიდან
 
-value = input("2011")
+value = input("enter your name")
 
-print("Mate", value)
-print("birthday", type(value))
+print(value)
+print(type(value))
 
 name = "Mate"          
 city = "Tbilisi"        
@@ -55,4 +55,3 @@ age = int(input("13"))
 height = float(input("1.78"))
 weight = float(input("62.4"))
 
-print("გამარჯობა, მე ვარ {first_name} {last_name}, {age} წლის, სიმაღლე მაქვს {height} მეტრი და ვიწონი {weight} კილოგრამი.")
