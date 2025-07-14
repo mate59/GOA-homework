@@ -55,4 +55,4 @@ age = int(input("13"))
 height = float(input("1.78"))
 weight = float(input("62.4"))
 
-print(f"გამარჯობა, მე ვარ {first_name} {last_name}, {age} წლის, სიმაღლე მაქვს {height} მეტრი და ვიწონი {weight} კილოგრამი.")
+print("გამარჯობა, მე ვარ {first_name} {last_name}, {age} წლის, სიმაღლე მაქვს {height} მეტრი და ვიწონი {weight} კილოგრამი.")
