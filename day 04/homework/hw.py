@@ -31,27 +31,27 @@ print("name", type(name))     # class 'str'
 print("age", type(age))       # class 'int'
 print("height", type(height)) # class 'flo'
 
-word1 = input("Volkswagen")
-word2 = input("Skoda")
+word1 = input("enter car brand")
+word2 = input("enter car name")
 
 result = word1 + word2
 
 print(result)
 
-num1 = float(input("2.6"))
-num2 = float(input("1.78"))
-num3 = float(input("3.1415"))
-num4 = float(input("7.45"))
-num5 = float(input("15.24"))
+num1 = float(input("enter first number"))
+num2 = float(input("enter second number"))
+num3 = float(input("enter third number"))
+num4 = float(input("enter fourth number"))
+num5 = float(input("enter fifth number"))
 
-average = (num1 + num2 + num3 + num4 + num5)
+average = ((num1 + num2 + num3 + num4 + num5) / 5)
 
 print(average)
 
 
-first_name = input("mate")
-last_name = input("arabuli")
-age = int(input("13"))
-height = float(input("1.78"))
-weight = float(input("62.4"))
+first_name = input("enter your name")
+last_name = input("enter your surname")
+age = int(input("enter your age"))
+height = float(input("enter your height"))
+weight = float(input("enter your weight"))
 
