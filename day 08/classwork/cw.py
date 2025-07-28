@@ -11,5 +11,9 @@
 # print(18 == 20 and 60 > 20)
 # print(164 < 170 and 1 == 2)
 
-for i in range(10000000000000000000000000000000000000000000): 
-    print("mate")
+for i in range(20): 
+    print("mate arabuli")
+
+for i in range(10)
+    print(i)   #itvlis 0 dan 9mde
+
