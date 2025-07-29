@@ -16,8 +16,8 @@ print((int(num3) * int(num4) * int(num5) * num6 * num7) / 5)
 print(type("10" * 5))
 
 word1 = input("enter first word: ")
-word2 = input("enter second number: ")
-word3 = input("enter third number: ")
+word2 = input("enter second word: ")
+word3 = input("enter third word: ")
 int1 = int(input("enter your number: "))
 word_sum = word1 + word2 +word3
 print(word_sum * int1)
