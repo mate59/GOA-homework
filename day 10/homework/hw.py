@@ -28,5 +28,15 @@
 
 #7)მომხმარებელს შემოატანინეთ მისი ასაკი 13 ჯერ გამოიყენე for loop
 
+for i in range(13):
+    age = input("შეიყვანეთ თქვენი ასაკი: ")
+    print("თქვენი ასაკია:", age)
+
 
 #8)გამოიტანეთ თქვენი სახელი 10 ჯერ while loop ის გამოყენებით
+
+name = "Mate"
+count = 0
+while count < 10:
+    print(name)
+    count += 1
