@@ -13,15 +13,15 @@ else:
     print("not equal to 15")
 
 #3)მომხმარებელს შემოატანეთ სტრინგი შენი დავალებაა შეამოწმო,თუ მომხამრებლის მიერ შემოყვანილი სტრინგი არის giorgi დაუპრინტეთ 'you are correct" სხვა შემთხვევაში დაუპრინტეთ "you are wrong"
-"password" = input("შეიყვანეთ პაროლი: ")
-if "password" == "petrepavle123":
+password = input("შეიყვანეთ პაროლი: ")
+if password == "petrepavle123":
     print("you are connected")
 else:
     print("wrong password, try again")
 
 #4)დაატრიალეთ ფორ ციკლი 50 დან 100 მდე 5 ის გამოტოვებით
-
-
+for i in range (50, 100, 5):
+    print(i)
 
 
 #5)ფორ ციკლის დახმარებით გამოიტანეთ ტერმინალში თქვენი სახელი და გვარი
@@ -34,4 +34,4 @@ for i in range(20):
 i = 20
 while i <= 50:
     print(i)
-    i += 1
+    i = i + 1

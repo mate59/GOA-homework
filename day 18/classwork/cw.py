@@ -28,8 +28,8 @@ else:
 
 num = int(input("Enter a number between 1 and 12: "))
 
-if num == 12 or num == 1 or num == 2:
-    print("winter")
+if num == 12 or num == 1 or num == 2:  
+    print("ზამთარი")
 elif num == 3 or num == 4 or num == 5:
     print("გაზაფხული")
 elif num == 6 or num == 7 or num == 8:
@@ -54,4 +54,13 @@ if input("Enter your name: ") == "admin":
         print("წვდომა არ გაქვს")
 else:
     print("სალამი მომხმარებელო")
+
+
+
+
+
+
+
+
+    #aniwebs upiratesobas trues da andi false
     
