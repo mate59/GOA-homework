@@ -51,7 +51,32 @@ else:
 
 
 
-#
+#4)შექმენით სია ["dog" ," most" ,"is" ,"angry" ,"running"  , "forest", "fast", "in" , "cat" ,"human", "very"]
+
+
+# --- მინუს ინდექსების გამოყენებით შეადგინეთ შემდეგი წინადადება და დაბეჭდეთ --> "dog is running in the forest (very) fast"
+
+# --- აასწყვეთ ზემოთ მოცემული წინადადება ოღონდ დადებითი ინდექსებით
+
+# --- დადებით ინდექსების გამოყენებით ააწყვეთ შემდეგი წინადადება ---> "the cat is very angry"
+
+
+list = ["dog" ," most" ,"is" ,"angry" ,"running", "the" , "forest", "fast", "in" , "cat" ,"human", "very"]
+
+
+print(list[-11])
+print(list[-9])
+print(list[-7])
+print(list[-4])
+print(list[-7])
+print(list[-6])
+
+
+
+
+
+
+
 
 
 
