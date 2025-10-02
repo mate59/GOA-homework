@@ -5,13 +5,13 @@
 # დაბეჭდე მესამე ელემენტი მარცხნიდან და მესამე ელემენტი მარჯვნიდან (უარყოფითიინდექსის გამოყენებით).
 
 
-# numbers = [2, 4, 6, 8, 10, 12, 14]
+numbers = [2, 4, 6, 8, 10, 12, 14]
 
 
-# print(numbers[-1] * numbers[-7])
+print(numbers[-1] * numbers[-7])
 
-# print(numbers[-5])
-# print(numbers[-3])
+print(numbers[-5])
+print(numbers[-3])
 
 
 
@@ -20,13 +20,13 @@
 # # # # # დაბეჭდე შუა 2 ელემენტი (ორივე(დადებითი და უარყოფითი)) ინდექსით.
 
 
-# fruits = ["apple", "banana", "cherry", "grape", "kiwi", "orange"]
+fruits = ["apple", "banana", "cherry", "grape", "kiwi", "orange"]
 
-# print(fruits[2])
-# print(fruits[3])
+print(fruits[2])
+print(fruits[3])
 
-# print(fruits[-3])
-# print(fruits[-4])
+print(fruits[-3])
+print(fruits[-4])
 
 
 # # # 3)
@@ -39,14 +39,14 @@
 # # # თუ უარყოფით რიცხვი ან  10 ზე მეტი მაღალირიცხვი შემოიყვანა დაბეჭდეთ --> "you entered negative or more than 10  number "
 
 
-# numbers = [3,4,5,6,7,1,2,9,8,11]
+numbers = [3,4,5,6,7,1,2,9,8,11]
 
-# index = int(input("Enter an index (0-9): "))
+index = int(input("Enter an index (0-9): "))
 
-# if 0 < index < 10:
-#     print(numbers[index])
-# else:
-#     print("you entered negative or more than 10  number ")
+if 0 < index < 10:
+    print(numbers[index])
+else:
+    print("you entered negative or more than 10  number ")
 
 
 # # # #4)შექმენით სია ["dog" ," most" ,"is" ,"angry" ,"running"  , "forest", "fast", "in" , "cat" ,"human", "very"]
@@ -59,10 +59,10 @@
 # # # # --- დადებით ინდექსების გამოყენებით ააწყვეთ შემდეგი წინადადება ---> "the cat is very angry"
 
 
-# list = ["dog" ," most" ,"is" ,"angry" ,"running", "the" , "forest", "fast", "in" , "cat" ,"human", "very"]
+list = ["dog" ," most" ,"is" ,"angry" ,"running", "the" , "forest", "fast", "in" , "cat" ,"human", "very"]
 
 
-# print(list[-12], list[-10], list[-8], list[-4], list[-7], list[-6], list[-1], list[-5])
+print(list[-12], list[-10], list[-8], list[-4], list[-7], list[-6], list[-1], list[-5])
 
 
 
@@ -83,16 +83,16 @@
 
 # # # # სხვა შემთხვევაში დაბეჭდე "სხვა ცხოველი აირჩიე".
 
-# animals = ["dog", "cat", "horse", "cow", "sheep", "goat"]
+animals = ["dog", "cat", "horse", "cow", "sheep", "goat"]
 
-# index = int(input("Enter an index (0-5): "))
+index = int(input("Enter an index (0-5): "))
 
-# if animals[index] == "cat":
-#     print("შენ აირჩიე კატა.")
-# elif animals[index] == "goat":
-#     print("შენ აირჩიე თხა.")
-# else:
-#     print("სხვა ცხოველი აირჩიე.")
+if animals[index] == "cat":
+    print("შენ აირჩიე კატა.")
+elif animals[index] == "goat":
+    print("შენ აირჩიე თხა.")
+else:
+    print("სხვა ცხოველი აირჩიე.")
 
 
 # # # # 6)
@@ -105,21 +105,21 @@
 
 # # # # თუ ინდექსები ერთნაირია → დაბეჭდე "ორივე ერთია" და გამოიტანე ამ ინდექსზე მდგომი ელემენტი ვთქვათ თუ შემოიყვანა მომხმარებელმა 5 და 5 დაუბეჭდე მე 5 ინდექსზე მდგომი ელემენტი.
 
-# cities = ["Tbilisi", "Batumi", "Zugdidi", "Kutaisi", "Rustavi", "Zestafoni"]
+cities = ["Tbilisi", "Batumi", "Zugdidi", "Kutaisi", "Rustavi", "Zestafoni"]
 
-# index1 = int(input("Enter the first index (0-5): "))
-# index2 = int(input("Enter the second index (0-5): "))
+index1 = int(input("Enter the first index (0-5): "))
+index2 = int(input("Enter the second index (0-5): "))
 
-# if index1 < index2:
-#     print(cities[index1])
-#     print(cities[index2])
-# elif index1 > index2:
-#     print("შეცვალე ინდექსები ადგილებით")
-#     print(cities[index2])
-#     print(cities[index1])
-# else:
-#     print("ორივე ერთია")
-#     print(cities[index1])
+if index1 < index2:
+    print(cities[index1])
+    print(cities[index2])
+elif index1 > index2:
+    print("შეცვალე ინდექსები ადგილებით")
+    print(cities[index2])
+    print(cities[index1])
+else:
+    print("ორივე ერთია")
+    print(cities[index1])
 
 
 # # # #7)მომხმარებელი შემოიტანს სიტყვას.
@@ -131,21 +131,21 @@
 # # # # სხვაგვარად → დაბეჭდე "სიტყვა არც a-თი იწყება და არც z-ით მთავრდება".
 
 
-# index = input("enter a word: ")
+index = input("enter a word: ")
 
-# word = ("a")
+word = ("a")
 
-# word2 = ("z")
+word2 = ("z")
 
 
-# if index[0] == word:
-#     print("სიტყვა იწყება a-თი")
+if index[0] == word:
+    print("სიტყვა იწყება a-თი")
 
-# elif index[-1] == word2:
-#     print("სიტყვა მთავრდება z-თი ")
+elif index[-1] == word2:
+    print("სიტყვა მთავრდება z-თი ")
 
-# else:
-#     print("სიტყვა არც a-თი იწყება და არც z-ით მთავრდება")
+else:
+    print("სიტყვა არც a-თი იწყება და არც z-ით მთავრდება")
 
 
 
@@ -159,12 +159,12 @@
 
 
 
-# sityva = input("enter a word: ")
+sityva = input("enter a word: ")
 
-# if sityva[0] == sityva[-1]:
-#     print("პირველი და ბოლო ერთნაირია")
-# else:
-#     print("პირველი და ბოლო განსხვავებულია")
+if sityva[0] == sityva[-1]:
+    print("პირველი და ბოლო ერთნაირია")
+else:
+    print("პირველი და ბოლო განსხვავებულია")
 
 
 # # #9)შექმენი ცვლადი სადაც შეინახავთ შემდეგ ასოებს ---> "agivorsbgitr"
@@ -177,15 +177,15 @@
 # # # ----ამ სიტყვიდან შეადგინე სიტყვა "bativar"
 
 
-# cvladi = "agivorsbgitr"
+cvladi = "agivorsbgitr"
 
-# print(cvladi[1] + cvladi[4] + cvladi[1] + cvladi[0])
-
-
-# print(cvladi[6] + cvladi[0] + cvladi[7] + cvladi[0])
+print(cvladi[1] + cvladi[4] + cvladi[1] + cvladi[0])
 
 
-# print(cvladi[7] + cvladi[0] + cvladi[10] + cvladi[2] + cvladi[3] + cvladi[0] + cvladi[5])
+print(cvladi[6] + cvladi[0] + cvladi[7] + cvladi[0])
+
+
+print(cvladi[7] + cvladi[0] + cvladi[10] + cvladi[2] + cvladi[3] + cvladi[0] + cvladi[5])
 
 
 
