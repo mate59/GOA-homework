@@ -198,8 +198,8 @@ print(cvladi[7] + cvladi[0] + cvladi[10] + cvladi[2] + cvladi[3] + cvladi[0] + c
 string = 'giorgi'
 
 
-# for i in string:
-#     print(i)
+for i in string:
+     print(i)
 
 
 i = 0
