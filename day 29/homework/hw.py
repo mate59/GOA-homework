@@ -58,9 +58,9 @@ print(word2[-9:-4])
 
 word3 = "abcdefghijklmno"
 
-print(word3[0:1], [-2:-1], [3:4])
-
-
+print(word3[0:1])
+print(word3[-2:-1])
+print(word3[3:4])
 
 
 
