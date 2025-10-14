@@ -13,9 +13,9 @@ print(list1)
 
 input = str(input("ener a number: "))
 
-if input % 10 == 0:
+if input % 2 == 0:
     print("ეს რიცხვი არის even")
-elif input % 10 == 1:
+elif input % 2 == 1:
     print("ეს რიცხვი არის odd")
 else:
     print("შემოიტანე რიცხვი!!!")
