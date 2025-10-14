@@ -11,7 +11,7 @@ print(list1)
 
 #2)შექმენით ცვლადი და მომხმარებელს შემოატანინეთ რიცხვი,თუ რიცხვი ლუწია დაუპრინტეთ "EVEN" შემდეგ შეამოწმეთ თუ რიცხცვი არის კენტი დაუპრინტეთ "Odd"
 
-input = str(input("ener a number: "))
+input = int(input("ener a number: "))
 
 if input % 2 == 0:
     print("ეს რიცხვი არის even")
