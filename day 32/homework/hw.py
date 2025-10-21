@@ -24,13 +24,13 @@ for i in range(1, 50):
 
 for i in range(20):
 
-    if i / 3:
+    if i % 3:
         print("იყოფა 3-ზე")
 
-    elif i / 5:
+    elif i % 5:
         print("იყოფა 5-ზე")
 
-    elif i / 3 and i / 5:
+    elif i % 3 and i % 5:
         print("იყოფა 3-ზე და 5-ზე")
 
     else:
