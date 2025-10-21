@@ -9,10 +9,10 @@
 for i in range(1, 50):
 
     if i % 2 == 0:
-        print("ლუწი")
+        print("ლუწი" + str(i))
 
     elif i % 2 == 1:
-        print("კენტი")
+        print("კენტი" + str(i))
 
 
 # 2) for ციკლით დაბეჭდე რიცხვები 0 დან 20 მდე.  
@@ -24,14 +24,14 @@ for i in range(1, 50):
 
 for i in range(20):
 
-    if i % 3 == 0:
+    if i % 3 == 0 and i % 5 == 0:
+        print("იყოფა 3-ზე და 5-ზე")
+
+    elif i % 3 == 0:
         print("იყოფა 3-ზე")
 
     elif i % 5 == 0:
         print("იყოფა 5-ზე")
-
-    elif i % 3 == 0 and i % 5 == 0:
-        print("იყოფა 3-ზე და 5-ზე")
 
     else:
         print("არ იყოფა არცერთზე")
@@ -69,12 +69,12 @@ print(Y)
 
 list2 = [10, 25, 33, 47, 80, 99] 
 
-for i in list2:
-
-    if i > 50:
+for i in range(6):
+    
+    if list2[i] > 50:
         print("მეტი 50-ზე")
 
-    elif i < 50:
+    elif list2[i] < 50:
         print("ნაკლები 50-ზე")
 
 
@@ -97,12 +97,12 @@ print("ლუწი რიცხვების ჯამია: ", X1)
 #    for ციკლით დაბეჭდე მხოლოდ ის სიტყვები, რომლებიც იწყება ასო "a" ზე.
 
 
-list2 = ["mate, saba, andria, ana, gia, giorgi"]
+list3 = ["mate, saba, andria, ana, gia, giorgi"]
 
-for i in list2:
+for i in range(6):
     
-    if i[0] == "a":
-        print(i)
+    if list3[i][0] == "a":
+        print(list3[i])
 
 
 # 7) for ციკლით დაბეჭდე რიცხვები 0 დან 20 მდე.  
@@ -127,39 +127,21 @@ for i in range(20):
 #    for ციკლით დაუარე სიას და დაბეჭდე მხოლოდ ის ელემენტები, რომლებიც იყოფა 5 ზე
 
 
-list3 = [5, 15, 25, 35, 45, 55] 
+list4 = [5, 15, 25, 35, 45, 55] 
 
-for i in list3:
+for i in range(6):
     
-    if i % 5 == 0:
-        print(i)
+    if list4[i] % 5 == 0:
+        print(list4[i])
 
 
-# 9) მომხმარებელს შემოატანინე სიტყვა.  
-#    for ციკლით დაბეჭდე ამ სიტყვის თითოეული ასო ცალცალკე.
-
-input2 = input("enter a name: ")
-
-for i in input2:
-    print(i)
-
-
-# 10) შექმენი ცვლადი -> total = 0  
+# 9) შექმენი ცვლადი -> total = 0  
 #     for ციკლით დაამატე 1 დან 10 მდე ყველა რიცხვი total-ში.  
 #     ბოლოს დაბეჭდე -> "ჯამი არის: X".
 
 total = 0
 
-for i in range(1, 10):
+for i in range(1, 5):
     total = total + i  
 
 print("ჯამი არის: ", total)
-
-
-
-
-
-
-
-
-
