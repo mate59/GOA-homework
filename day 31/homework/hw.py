@@ -2,80 +2,80 @@
 # შეცვალე შუა ორი ელემენტი რიცხვებით [10, 20, 30]
 
 
-# list1 = [1, 2, 3, 4, 5, 6]
+list1 = [1, 2, 3, 4, 5, 6]
 
-# list1[2:4] = [10, 20, 30]
+list1[2:4] = [10, 20, 30]
 
-# print(list1)
+print(list1)
 
 
 # # 2)მოცემულია სია --> ["apple", "banana", "cherry", "kiwi", "mango"]
 # # შეცვალე პირველი ორი ელემენტი სიით ["pear", "plum"]
 
 
-# list2 = ["apple", "banana", "cherry", "kiwi", "mango"]
+list2 = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-# list2[:2] = ["pear", "plum"]
+list2[:2] = ["pear", "plum"]
 
-# print(list2)
+print(list2)
 
 
 # # 3)ოცემულია სია --> ["a", "b", "c", "d", "e", "f"]
 # # შეცვალე ბოლო სამი ელემენტი სიით ["x", "y", "z"]
 
 
-# list3 = ["a", "b", "c", "d", "e", "f"]
+list3 = ["a", "b", "c", "d", "e", "f"]
 
-# list3[4:] = ["x", "y", "z"]
+list3[4:] = ["x", "y", "z"]
 
-# print(list3)
+print(list3)
 
 
 # # 4)მოცემულია სია --> ["red", "green", "blue", "yellow", "black", "white"]
 # # შეცვალე ინდექსებზე 2-დან 5-მდე ელემენტები სიით ["purple", "orange"]
 
 
-# list4 = ["red", "green", "blue", "yellow", "black", "white"]
+list4 = ["red", "green", "blue", "yellow", "black", "white"]
 
-# list4[1:5] = ["purple", "orange"]
+list4[1:5] = ["purple", "orange"]
 
-# print(list4)
+print(list4)
 
 
 # # 5)მოცემულია სია --> ["გიორგი" , "ირმა" , "საბა" ]
 # # შეცვალე მთლიანი სია შემდეგი სიით -->  ["red", "green", "blue", "yellow", "black", "white"]
 
 
-# list5 = ["გიორგი" , "ირმა" , "საბა" ]
+list5 = ["გიორგი" , "ირმა" , "საბა" ]
 
-# list5[:] = ["red", "green", "blue", "yellow", "black", "white"]
+list5[:] = ["red", "green", "blue", "yellow", "black", "white"]
 
-# print(list5)
+print(list5)
 
 
 # # 6) მომხმარებელმა შეიყვანოს რიცხვი — შეამოწმე ლუწია თუ კენტი ეს რიცხვი , თუ ლუწია დაპრინტე --> "Even" ,თუ კენტია დაპრინტე --> "Odd".
 
 
-# input = int(input("ener a number: "))
+input = int(input("ener a number: "))
 
-# if input % 2 == 0:
-#     print("this number is even")
-# elif input % 2 == 1:
-#     print("this number is odd")
-# else:
-#     print("this is not a number!!")
+if input % 2 == 0:
+    print("this number is even")
+elif input % 2 == 1:
+    print("this number is odd")
+else:
+    print("this is not a number!!")
 
 
 # # 7)შექმენი სია --> სადაც შეინახავ ინტეჯერებს ,შემდეგ შეამოწმე თუ სიაში მყოფი მე3 ინდექსზე მდგომი ელემენტი არუს ლუწი დაპრინტე --> "Even number" ,თუ სიაში მყოფი მესამე ინდექსზე მდგომი ელემენტი არის კენტი დაპრინტე --> "Odd number"
 
-# list6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# if list6[2] % 2 == 0:
-#     print("even number")
-# elif list6[2] % 2 == 1:
-#     print("odd number")
-# else:
-#     print("enter a number!!")
+if list6[2] % 2 == 0:
+    print("even number")
+elif list6[2] % 2 == 1:
+    print("odd number")
+else:
+    print("enter a number!!")
 
 
 # 8)შექმენი სია სადაც შეინახავ ინტეჯერებს, თუ სიაში მყოფი ბოლო ელემენტი არის ლუწი და მეტი 50 ზე დაპრინტე --> "ეს რიცხვი არის ლუწი და მეტი 50 ზე" , თუ რიცხვი არის კენტი და ნაკლებია 50 ზე დაპრინტე --> "ეს რიცხვი არის კენტი და ნაკლები 50 ზე"
