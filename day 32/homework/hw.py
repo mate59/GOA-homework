@@ -11,7 +11,7 @@ for i in range(1, 50):
     if i % 2 == 0:
         print("ლუწი")
 
-    elif i % 1 == 0:
+    elif i % 2 == 1:
         print("კენტი")
 
 
