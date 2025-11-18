@@ -11,7 +11,7 @@ print(listi)
 
 lissti = [980 , "saba", 231 , "kote" , "cico" , True , "gio" , 40.5]
 
-lissti.insert( 1 , "bati" )
+lissti.insert( 2 , "bati" )
 
 print(lissti)
 
@@ -20,7 +20,7 @@ print(lissti)
 
 llisti = [980 , "saba", 231 , "kote" , "cico" , True , "gio" , 40.5]
 
-llisti.pop(4)
+llisti.pop(5)
 
 print(llisti)
 
@@ -29,8 +29,8 @@ print(llisti)
 
 llistii = [980 , "saba", 231 , "kote" , "cico" , True , "gio" , 40.5]
 
-llistii.pop(5)
+llistii.remove(True)
 
-llistii.pop(3)
+llistii.remove("kote")
 
 print(llistii)
