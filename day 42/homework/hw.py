@@ -245,7 +245,7 @@ input3 = int(input("enter a ricxvi: "))
 if input3 > 0:
     nums.append(input3)
     print(nums)
-elif input3 <= 0:                     #elif-it damtaveba xo sheidzleba
+elif input3 <= 0:                     #elif-it damtaveba xo sheidzleba???
     print("only positive allowed")
 
 print(nums)
