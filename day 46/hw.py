@@ -36,10 +36,11 @@ print(list2)
 
 list3 = ["vashli" , "Gela" , "jora" , "pepela"]
 
-for i in list3:
-    if i[0] == i.lower():
-        # ?????
+for i in range(len(list3)):
+    if list3[i][0] == list3[i][0].lower():
+        list3[i] = list3[i].capitalize()
 
+print(list3)
 
 
 # 5) თქვენი სიტყვებით ახსენით რას აკეთებს გავლილი მასალიდან ყველა შესწავლილი სიის და სტრინგის ფუნქციები და for ციკლი.
