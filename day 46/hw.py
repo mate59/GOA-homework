@@ -13,7 +13,9 @@ print(listt)
 
 listi = ["qwe" , "rty", "uio", "asd", "fgh"]
 
-for i in listi:
+listi22 = listi[:]
+
+for i in listi22:
     listi.append(i)
 
 print(listi)
