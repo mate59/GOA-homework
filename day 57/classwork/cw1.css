@@ -1,0 +1,29 @@
+p{
+    font-size: 50px;
+    border: 3px solid blue;
+    color: yellowgreen;
+    text-align: center;
+}
+
+button{
+    height: 60px;
+    width: 100px;
+    border: none;
+    background-color: red;
+    color: yellow;
+}
+
+
+div li{
+    color: maroon;
+    font-size: 35px;
+    border: 2px solid green;
+    background-color: blue;
+}
+
+nav li {
+    color: maroon;
+    font-size: 50px;
+    border: 3px solid purple;
+    background-color: yellow;
+}
