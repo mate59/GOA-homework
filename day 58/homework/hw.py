@@ -75,21 +75,5 @@ print(mon)
 
 # 6) მომხმარებელს შემოატანინეთ წინადადება და დაპრინტეთ ამ წინადადებაში მყოფი ყველაზე გრძელი სიტყვა, გამოიყენეთ while ციკლი, არ გამოიყენოთ max() ფუნქცია.
 
-win = input("enter a sentence: ")
-
-words = win.split()
-
-i = 0
-
-longest = ""
-
-while i < len(words):
-    if len(words[i]) > len(longest):
-        longest = words[i]
-    i += 1
-
-print(longest)
-
-
-
+# ?????
 
