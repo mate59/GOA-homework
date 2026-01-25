@@ -1,0 +1,94 @@
+header p{
+    font-size: 40px;
+    background-color: cyan;
+    text-align: center;
+    border: 70px solid cyan;
+    margin-top: 0%;
+}
+
+
+
+.sec1{
+    display: inline-block;
+    border: 3px solid rgb(200, 200, 200);
+    width: 350px;
+    margin-left: 13%;
+    margin-top: 6%;
+}
+
+.sec1 p{
+    font-size: 23px;
+}
+
+.sec1 button {
+    width: 100%;
+    font-size: 16px;
+    background-color: cyan;
+    cursor: pointer;
+}
+
+
+
+.sec2{
+    display: inline-block;
+    border: 3px solid rgb(200, 200, 200);
+    width: 350px;
+    margin-left: 13%;
+}
+
+.sec2 p{
+    font-size: 23px;
+}
+
+.sec2 button {
+    width: 100%;
+    font-size: 16px;
+    background-color: cyan;
+    cursor: pointer;
+}
+
+
+
+.sec3{
+    display: inline-block;
+    border: 3px solid rgb(200, 200, 200);
+    width: 350px;
+    margin-left: 13%;
+}
+
+.sec3 p{
+    font-size: 23px;
+}
+
+.sec3 button {
+    width: 100%;
+    font-size: 16px;
+    background-color: cyan;
+    cursor: pointer;
+}
+
+
+
+
+/* display inline-block - ჩვეულებრივ ალაგებს section-ებს ჰორიზონტალურად */
+
+/* cursor pointer - მაუსის icon იცვლება ღილაკთან მიტანის შემთხევაში */
+
+/* margin - section-ების პოზიცია შეგვიძლია შევცვალოთ მის დახმარებით */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 # 1) შექმენით რიცხვებით სავსე სია, ამ სიიდან იპოვეთ და დაპრინტეთ მეორე ყველაზე დიდი რიცხვი, გამოიყენეთ for ციკლი.
 
-words = ["GELA" , "mausi" , "VAJA" , "vigac"]
+words = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 words1 = []
 
@@ -15,28 +15,40 @@ print(words1)
 
 inputi = input("enter a sentence: ")
 
-i = 0
-
 count = 0
 
-while i < len(words):
-    if len(words[i]) > 4:
-        count += 1
+i = 0
+
+leng = 0
+
+while i < len(input):
+    if inputi[i] != " ":
+        leng += 1
+
+    else:
+        if leng > 4:
+            count += 1
+        leng = 0
+
     i += 1
 
+if leng > 4:
+    count += 1
+
 print(count)
+
 
 
 # 3) მომხმარებელს შემოატანინეთ სიტყვა და გაიგეთ ეს სიტყვა არის თუ არა პალინდრომი - ანუ ეს სიტყვა წინიდანაც და უკნიდანაც თუ ზუსტად იგივენაირად იკითხება. თუ კი მაშინ დაპრინტეთ True, თუ არა დაპრინტეთ False, გამოიყენეთ for ციკლი, არ გამოიყენოთ slicing - [::-1].
 
 word = input("enter a word: ")
 
-for i in word:
-    if word[i] == word[i].reverse():
-        print("true")
+word1 = ""
 
-    if word[i] != word[i].reverse():
-        print("false")
+for i in word:
+    word1 = i + word1
+
+print(word1 == word)
 
 
 # 4) შექმენით არეული რიცხვებით სავსე გრძელი სია და 2 ცარიელი სია, ერთ სიაში ჩააგდეთ ყველა ის რიცხვი რომელიც არის ლუწი და დგას კენტ ინდექსზე, ხოლო მეორე სიაში ჩააგდეთ ყველა ის რიცხვი რომელიც არის ლუწი და დგას კენტ ინდექსზე, გამოიყენეთ for ციკლი.
