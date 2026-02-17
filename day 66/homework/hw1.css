@@ -1,0 +1,130 @@
+.h1{
+    color: rgb(67, 67, 67);
+    background-color: rgb(134, 134, 134);
+    text-align: center;
+    border: 5px solid rgb(67, 67, 67);
+}
+
+#p{
+    color: rgb(67, 67, 67);
+    background-color: rgb(134, 134, 134);
+    text-align: center;
+    border: 5px solid rgb(67, 67, 67);
+}
+
+
+
+#p2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
+    text-align: left;
+    border: 3px solid rgb(200, 200, 200);
+}
+
+.c-p{
+    color: rgb(34, 139, 34);
+    background-color: rgb(255, 250, 205);
+    text-align: right;
+    border: 8px solid rgb(220, 20, 60);
+}
+
+
+
+.divvv{
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(100, 100, 100);
+
+}
+
+.p3{
+    color: rgb(25, 25, 112);
+    background-color: rgb(255, 228, 225);
+}
+
+
+
+#sectid{
+    color: rgb(100, 149, 237);
+    background-color: rgb(240, 128, 128);
+    text-align: center;
+    border: 6px dashed rgb(75, 0, 130);
+    padding: 20px;
+}
+
+.sectclass{
+    color: rgb(184, 134, 82);
+    background-color: rgb(144, 238, 144);
+    text-align: left;
+    border: 4px dotted rgb(255, 165, 0);
+}
+
+#secth1{
+    color: rgb(255, 20, 147);
+    background-color: rgb(173, 216, 230);
+    text-align: right;
+    border: 3px solid rgb(0, 128, 128);
+}
+
+
+
+#divbutt{
+    background-color: rgb(220, 220, 220);
+    border: 2px solid rgb(100, 100, 100);
+}
+
+.divbut{
+    background-color: rgb(100, 150, 255);
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 255);
+}
+
+
+/* 6) შექმენით დივი რომელშიც მოთავსებული გექნებათ 2 პარაგრაფი და 2 სათაური, და ეს  2 პარაგრაფი და 2 სათაური გასტილეთ id-ით, კლასით, Style Inheritance-ით, ელემენტის სელექტორით, Inline CSS-ით. ყველა სტილების მნიშვნელობები იყოს ერთმანეთისგან განსხვავებული. */
+.div-container {
+    background-color: rgb(220, 180, 140);
+    padding: 15px;
+    border: 4px solid rgb(139, 69, 19);
+}
+
+#heading-one {
+    color: rgb(178, 34, 34);
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.paragraph-style {
+    color: rgb(0, 100, 0);
+    font-weight: bold;
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(70, 130, 180);
+    background-color: rgb(255, 240, 245);
+    margin: 10px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
