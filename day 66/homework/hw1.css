@@ -79,33 +79,30 @@
 }
 
 
-/* 6) შექმენით დივი რომელშიც მოთავსებული გექნებათ 2 პარაგრაფი და 2 სათაური, და ეს  2 პარაგრაფი და 2 სათაური გასტილეთ id-ით, კლასით, Style Inheritance-ით, ელემენტის სელექტორით, Inline CSS-ით. ყველა სტილების მნიშვნელობები იყოს ერთმანეთისგან განსხვავებული. */
-.div-container {
+
+.div_clas{
     background-color: rgb(220, 180, 140);
-    padding: 15px;
     border: 4px solid rgb(139, 69, 19);
+    color: rgb(67, 67, 67);
 }
 
-#heading-one {
+#div_h1{
     color: rgb(178, 34, 34);
     font-size: 28px;
-    text-decoration: underline;
 }
 
-.paragraph-style {
+.div_class{
     color: rgb(0, 100, 0);
-    font-weight: bold;
-    padding: 10px;
 }
 
-h2 {
+#div_p1{
     color: rgb(70, 130, 180);
     background-color: rgb(255, 240, 245);
-    margin: 10px 0;
 }
 
-p {
-    line-height: 1.6;
+.class_p{
+    color: rgb(255, 67, 0);
+    background-color: rgb(255, 228, 196);
 }
 
 
