@@ -1,0 +1,65 @@
+.n1_p{
+    text-transform: uppercase;
+}
+
+.n2_p{
+    text-transform: lowercase;
+}
+
+.n3_p{
+    text-transform: capitalize;
+}
+
+
+.n4_p1{
+    text-transform: capitalize;
+}
+
+.n4_p2{
+    text-transform: uppercase;
+}
+
+.n4_p3{
+    text-transform: lowercase;
+}
+
+
+.n5_1{
+    text-shadow: 5px 3px 3px rgb(0, 255, 0)
+}
+
+.n5_2{
+    color: palevioletred;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px purple;
+}
+
+.n5_3{
+    color: cyan;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px palevioletred;
+}
+
+.n5_4{
+    color: black;
+    text-shadow: 2px 3px 4px black;
+}
+
+.n5_5{
+    color: lime;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 6px rgb(0, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
