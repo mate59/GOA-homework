@@ -1,0 +1,9 @@
+
+a.special-link:link {
+    color: #e67e22;
+    background-color: #1abc9c;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    text-decoration: none;
+}
