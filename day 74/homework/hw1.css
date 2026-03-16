@@ -1,0 +1,20 @@
+.yt:link{
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tt:hover{
+    font-weight: bold;
+    color: maroon;
+}
+
+.ig:visited{
+    color: purple;
+    font-family: Arial; /* ???? */
+}
+
+.cw:active{
+    background-color: yellow;
+    border: 2px solid;
+}
