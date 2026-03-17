@@ -11,10 +11,22 @@
 
 .ig:visited{
     color: purple;
-    font-family: Arial; /* ???? */
+    font-family: Arial;
 }
 
 .cw:active{
     background-color: yellow;
     border: 2px solid;
+}
+
+.sl:hover{
+    text-decoration: underline;
+    color: lime;
+    font-size: 20px;
+}
+
+.dc:visited{
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
 }
