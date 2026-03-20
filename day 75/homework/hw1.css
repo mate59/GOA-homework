@@ -1,0 +1,79 @@
+.ul1{
+    list-style-type: upper-roman;
+    color: rgb(0, 0, 255);
+    background-color: rgb(155, 55, 55);
+    border: 2px solid rgb(210, 180, 80);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ul2{
+    list-style-type: square;
+}
+
+.ol1{
+    list-style-type: decimal-leading-zero;
+    color: rgb(0, 0, 255);
+    background-color: rgb(155, 55, 55);
+    border: 2px solid rgb(210, 180, 80);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ul3{
+    list-style-type: circle;
+}
+
+.ul4{
+    list-style-type: disc;
+    color: rgb(0, 0, 255);
+    background-color: rgb(155, 55, 55);
+    border: 2px solid rgb(210, 180, 80);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ul5{
+    list-style-type: lower-alpha;
+}
+
+.ol2{
+    list-style-type: upper-alpha;
+    color: rgb(0, 0, 255);
+    background-color: rgb(155, 55, 55);
+    border: 2px solid rgb(210, 180, 80);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: line-through;
+}
+
+.ul6{
+    list-style-type: square;
+}
+
+.ol3:hover{
+    list-style-type: upper-roman;
+    color: rgb(0, 0, 255);
+    background-color: rgb(155, 55, 55);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.ul7{
+    list-style-type: circle;
+}
+
+.ul8:active{
+    list-style-type: none;
+    color: rgb(0, 0, 255);
+    background-color: rgb(155, 55, 55);
+    border: 2px solid rgb(210, 180, 80);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu{
+    list-style-type: square;
+}
