@@ -1,0 +1,28 @@
+.ul1 li{
+    list-style-position: inside;
+    list-style-type: square;
+    border: 2px solid;
+    color: maroon;
+    background-color: magenta;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.ul2 li{
+    list-style-image: url(shopping_cart_24dp_000000_FILL0_wght400_GRAD0_opsz24.png);
+    font-family: Arial;
+    color: aquamarine;
+    background-color: crimson;
+    border: 2px solid salmon;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ul3 li{
+    list-style-type: decimal;
+}
+
+.ol1 li{
+    list-style-type: decimal-leading-zero;
+}
