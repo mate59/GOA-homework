@@ -1,0 +1,174 @@
+table{
+    font-family: Arial, sans-serif;
+    background-color: rgb(30, 30, 30);
+    border-collapse: collapse;
+
+}
+
+table tr{
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(42, 167, 184);
+    color: rgb(42, 167, 184);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(234, 234, 234);
+}
+
+.green th{
+    background-color: rgb(0, 255, 100);
+}
+
+/* ---------------------------------------------------------------------- */
+
+table{
+    font-family: Arial, sans-serif;
+    background: rgb(20, 20, 20);
+    border-collapse: collapse;
+
+}
+
+table{
+    color: rgb(255, 255, 255);
+}
+
+th{
+    background-color: rgb(55, 60, 65);
+    font-weight: bold;
+}
+
+.row{ background-color: rgb(70, 130, 220);
+}
+
+.row2{ background-color: rgb(85, 160, 80); 
+}
+
+.row3{ background-color: rgb(235, 185, 70); 
+}
+
+.row4{ background-color: rgb(200, 70, 70); 
+}
+
+.row5{ background-color: rgb(80, 150, 170); 
+}
+
+/* ------------------------------------------------------------------------- */
+
+.tabl2 {
+    font-family: Arial, sans-serif;
+    background: rgb(15, 15, 15);
+    border-collapse: collapse;
+}
+
+.table-box {
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.head th {
+    background-color: rgb(20, 200, 200);
+    color: rgb(0, 80, 80);
+}
+
+.tr2 td {
+    background-color: rgb(230, 230, 230);
+    color: rgb(60, 60, 60);
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.tabl3{
+    font-family: arial;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(0, 185, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+td{
+    color: rgb(128, 128, 128);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+tr:nth-child(3){
+    color: rgb(0, 185, 0);
+    font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.h1{
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.form1 input{
+    font-family: Arial;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: gray;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.form2{
+    font-family: Arial;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: gray;
+}
+
+button{
+    background-color: palevioletred;
+    border: none;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+p{
+    color: cyan;
+}
+
+.form3{
+    font-family: Arial;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: gray;
+}
+
+button{
+    background-color: cyan;
+    width: 190px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.h1{
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.form4{
+    font-family: Arial;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: gray;
+}
+
+.but1{
+    background-color: greenyellow;
+    border-radius: 5px;
+}

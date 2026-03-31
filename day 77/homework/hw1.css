@@ -21,8 +21,85 @@
 
 .ul3 li{
     list-style-type: decimal;
+    border: 2px solid;
+    color: maroon;
+    background-color: magenta;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: serif;
 }
 
 .ol1 li{
     list-style-type: decimal-leading-zero;
+    border: 2px solid;
+    color: maroon;
+    background-color: magenta;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.ul4 li{
+    list-style: square inside url(battery_android_frame_full_24dp_000000_FILL0_wght400_GRAD0_opsz24.png);
+    background-color: magenta;
+    font-family: Arial;
+}
+
+.ul4 li:hover{
+    background-color: blueviolet;
+    color: blue;
+}
+
+
+.ol2 li{
+    list-style-image: url(history_24dp_000000_FILL0_wght400_GRAD0_opsz24.png);
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 24px;
+    color: darkblue;
+    background-color: blue;
+    text-align: left;
+}
+
+
+.ol3 li{
+    font-size: 24px;
+    color: darkblue;
+    background-color: blue;
+    text-align: center;
+}
+
+
+.ol4{
+    border: 2px solid;
+    color: khaki;
+    background-color: firebrick;
+    font-family: 'Lucida Grande';
+}
+
+.ol4 li{
+    list-style: upper-roman inside;
+}
+
+.ol4 ul{
+    list-style: square outside;
+}
+
+
+.ol5{
+    color: mediumslateblue;
+    background-color: mediumspringgreen;
+}
+
+.ol5 li{
+    list-style: georgian inside;
+}
+
+.ol5 .qalaqebi{
+    list-style: circle outside;
+}
+
+.ol5 li:hover{
+    background-color: violet;
+    color: brown;
 }
