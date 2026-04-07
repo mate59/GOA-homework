@@ -13,3 +13,69 @@
 .p4{
     margin-bottom: 5px;
 }
+
+
+.div1{
+    border: 2px solid;
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 255);
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+}
+
+.div2{
+    border: 2px solid;
+    color: rgb(0, 255, 0);
+    background-color: violet;
+    height: 250px;
+    width: 250px;
+    margin: 200px 100px;
+}
+
+.div2 button{
+    margin: 20px;
+}
+
+
+.div3 {
+    border: 6px solid yellow;
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    padding-top: 900px;
+}
+
+.div3 button {
+    padding-bottom: 50px;
+}
+
+
+.inp1 {
+    border: 10px solid green;
+}
+
+.inp2 {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: darkblue;
+
+    border-top: 5px solid red;
+    border-right: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid orange;
+}
+
+
+.p5, .butt3, .h112 {
+    margin: 148px;
+}
+
+.butt3 {
+    padding: 60px 40px;
+    border-top: 5px solid red;
+    border-right: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid orange;
+}

@@ -1,0 +1,17 @@
+.main-div{
+    width: 600px;
+    height: 400px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.child-div{
+    width: 100px;
+    height: 75px;
+    background-color: rgb(138, 43, 226);
+    border: 2px solid rgb(154, 205, 50);
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+}
