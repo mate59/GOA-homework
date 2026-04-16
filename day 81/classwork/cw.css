@@ -13,5 +13,8 @@
 
 .main-div{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* ალაგებს ყ ღერძე */
+    flex-direction: column-reverse; /* ალაგებს ყ ღერძე შემოტრიალებულად */
+    flex-direction: row; /* ალაგებს ხ ღერძე */
+    flex-direction: row-reverse; /* ალაგებს ხ ღერძე შემოტრიალებულად */
 }
