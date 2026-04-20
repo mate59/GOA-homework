@@ -1,0 +1,29 @@
+.container{
+    background: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: sans-serif;
+    width: 700px;
+}
+
+.row{
+    background: #7e4a9e;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    background: #f7931a;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.box.small{
+    width: 100px;   
+}
