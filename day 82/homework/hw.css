@@ -1,5 +1,4 @@
 .container{
-    background: #1e1e2f;
     display: flex;
     justify-content: center;
     padding: 40px;
@@ -8,7 +7,7 @@
 }
 
 .row{
-    background: #7e4a9e;
+    background: rgb(126, 74, 158);
     border-radius: 16px;
     padding: 20px;
     margin-bottom: 20px;
@@ -18,7 +17,7 @@
 }
 
 .box{
-    background: #f7931a;
+    background: rgb(247, 147, 26);
     height: 60px;
     width: 150px;
     border-radius: 10px;
@@ -27,3 +26,110 @@
 .box.small{
     width: 100px;   
 }
+
+
+/* display: flex; მთავარია, გალანაგებს ელემენტებს x ღერძზე*/
+
+/* flex-direction: row, row-reverse, column, column-reverse; ეს უცვლის ფლექს პოზიციას */
+
+/* justify-content: start, end, center, space-between, space-arround, space-evenly; ის ანაწილებს სივრცეს ელემენტების შორის და დადის x ღერძზე*/
+
+/* align-items: start, center, end ელემენტებს ადგილმდებარეობას უცვლის და დადის y ღერძზე */
+
+/* gap: 20px; დაშორება ელემენტებს შორის */
+
+/* flex-wrap: wrap, nowrap, wrap-reverse; ჰკრავს შვილ ელემენტს მშობელ ელემენტში */
+
+/* align-self: start, center, end; გადაეცემა მარტო იმ ელემენტებს რომელიცაა შვილი ელემენტი, უწერია display: flex; და გვინდა ვამოძრაოთ y ღერძზე */
+
+
+
+.container-1{
+    width: 500px;
+    height: 120px;
+    background: rgb(221, 221, 221);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-1{
+    width: 60px;
+    height: 60px;
+    background: orange;
+}
+
+
+.container{
+    width: 500px;
+    height: 200px;
+    background: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    gap: 10px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background: orange;
+}
+
+
+.container{
+    width: 500px;
+    height: 200px;
+    background: rgb(221, 221, 221);
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    gap: 10px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background: orange;
+}
+
+
+.container{
+    width: 400px;
+    height: 500px;
+    background: rgb(106, 90, 205);
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;    
+    gap: 40px;  
+}
+
+.container img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.nav{
+    width: 500px;
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;  
+    gap: 50px;   
+    list-style: none;  
+    margin: 0;  
+}
+
+
+
+
+
+
+
+
+
+
+
+

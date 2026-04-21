@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1{
+    width: 700px;
+    height: 700px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-1 div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1 div:nth-child(1){
+    flex-grow: 1;
+}
+
+.div-1 div:nth-child(3){
+    flex-basis: 200px;
+}
+
+.div-1 div:nth-child(5){
+    flex-shrink: 4;
+}
