@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;  /* ?????????? */
+    font-family: "Inter", sans-serif;
 }
 
 body{
@@ -42,14 +42,14 @@ img{
 }
 
 .location{
-    color: rgb(166, 192, 81);
-    font-weight: 600;
+    color: rgb(198, 230, 97);
+    font-weight: 700;
     font-size: 14px;
     margin-top: 10px;
 }
 .info{
     color: rgb(202, 202, 202);
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 26px;
     margin-bottom: 10px;
 }
@@ -63,7 +63,8 @@ button{
     height: 46px;
     border-radius: 8px;
     margin-top: 15px;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 
