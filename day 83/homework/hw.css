@@ -1,18 +1,18 @@
-/* flex-grow: 1, 0, -1; დარჩენილ ადგილს ავსებს */
+/* flex-grow: 1, 2, 3, 4, 5, 6, 7, 8, ∞; დარჩენილ ადგილს ავსებს */
 
-.container{
+.container1{
     display: flex;
     width: 600px;
     border: 1px solid black;
 }
 
-.container div{
+.container1 div{
     width: 100px;
     background: lightgray;
     border: 1px solid blue;
 }
 
-.container div:nth-child(2){
+.container1 div:nth-child(2){
     flex-grow: 1;
     background: lightgreen;
 }
@@ -58,3 +58,248 @@
 .btn button:hover{
     background: rgb(0, 170, 204);
 }
+
+
+
+.container2{
+    display: flex;
+    width: 600px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.container2 div{
+    flex: 1;
+    background: lightgray;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 div:hover{
+    background: orange;
+}
+
+.container2 div:nth-child(3):hover{
+    flex-grow: 3;
+    background: crimson;
+    color: white;
+}
+
+
+
+.container3{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.item1{
+    flex-basis: 150px;
+    background: lightcoral;
+}
+
+.item2{
+    flex-basis: 150px;
+    background: lightblue;
+}
+
+.item3{
+    flex-basis: 150px;
+    background: lightgreen;
+}
+
+.item1, .item2, .item3{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+
+
+
+
+.container4{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.item1{
+    flex-basis: 100px;
+    background: lightcoral;
+}
+
+.item2{
+    flex-basis: 200px;
+    background: lightblue;
+}
+
+.item3{
+    flex-basis: 300px;
+    background: lightgreen;
+}
+
+.item4{
+    flex-basis: 150px;
+    background: lightgoldenrodyellow;
+}
+
+.item1, .item2, .item3, .item4{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+
+
+/* flex-shrink: 0, 1, 2, 3, 4, 5, 6, 7, 8, ∞; კუმშავს ელემენტს სხვა ელემენტის განსხვავევბით  */
+
+
+
+
+
+.container5{
+    display: flex;
+    width: 400px;
+    border: 1px solid black;
+    gap: 5px;
+}
+
+.item{
+    flex-basis: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.item1{
+    flex-shrink: 1;
+    background: lightcoral;
+}
+
+.item2{
+    flex-shrink: 0;
+    background: lightgreen;
+}
+
+.item3{
+    flex-shrink: 1;
+    background: lightblue;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    width: 300px;
+    border: 1px solid black;
+    gap: 5px;
+}
+
+.container6 div{
+    flex-basis: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.item1{
+    flex-shrink: 1;
+    background: lightcoral;
+}
+
+.item2{
+    flex-shrink: 2;
+    background: lightblue;
+}
+
+.item3{
+    flex-shrink: 3;
+    background: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
