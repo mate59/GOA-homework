@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;  /* ?????????? */
 }
 
 body{
@@ -10,14 +13,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 470px;
+    margin-left: 480px;
     margin-top: 178px;
 }
 
 .main{
     background-color: rgb(31, 31, 31);
-    height: 613px;
-    width: 370px;
+    height: 606px;
+    width: 380px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -25,10 +28,47 @@ body{
 }
 
 img{
-    height: 90px;
-    width: 90px;
+    height: 88px;
+    width: 88px;
     border-radius: 100px;
-    margin-top: 48px;
-    margin-left: 20px;
+    margin-top: 37px;
 }
+
+.name{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 27px;
+}
+
+.location{
+    color: rgb(166, 192, 81);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.info{
+    color: rgb(202, 202, 202);
+    font-size: 15px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(51, 51, 51);
+    color: rgb(253, 253, 253);
+    border: none;
+    text-decoration: none;
+    width: 304px;
+    height: 46px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+
 
