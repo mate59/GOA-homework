@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(245, 208, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+}
+
+.main{
+    height: 520px;
+    width: 384px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 8px 0 black;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.img1{
+    border-radius: 12px;
+    margin-left: 3px;
+}
+
+.main button{
+    width: 81px;
+    height: 27px;
+    border: none;
+    background-color: rgb(240, 209, 83);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 3px;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.publish{
+    padding: 15px 0px 10px 3px;
+    font-size: 14px;
+}
+
+.course{
+    font-size: 24px;
+    padding: 7px 0px 14px 3px;
+}
+
+.info{
+    color: rgb(141, 141, 141);
+    margin:  0px 0px 22px 3px;
+}
+
+.profile{
+    height: 40px;
+    font-size: 10px;
+    margin: 39px 0px 0px 3px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile img{
+    width: 31px;
+    height: 32px;
+}
+
+.profile h1{
+    font-size: 15px;
+    margin: 0px 0px 30px 10px;
+}

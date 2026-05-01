@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main{
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main .N1{
+    background-color: rgb(226, 133, 37);
+    width: 304px;
+    height: 496px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 46px;
+}
+
+.N1 img{
+    padding-bottom: 40px;
+    margin-right: 148px;
+}
+
+.N1 h1{
+    padding-bottom: 40px;
+    margin-right: 120px;
+    font-size: 36px;
+}
+
+.N1 button{
+    margin-top: 87px;
+    width: 145px;
+    height: 46px;
+    margin-right: 60px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.main .N2{
+    background-color: rgb(1, 105, 114);
+    width: 304px;
+    height: 496px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 46px;
+}
+
+.N2 img{
+    padding-bottom: 40px;
+    margin-right: 148px;
+}
+
+.N2 h1{
+    padding-bottom: 40px;
+    margin-right: 140px;
+    font-size: 36px;
+}
+
+.N2 button{
+    margin-top: 87px;
+    width: 145px;
+    height: 46px;
+    margin-right: 60px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.main .N3{
+    background-color: rgb(0, 64, 63);
+    width: 304px;
+    height: 496px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 46px;
+}
+
+.N3 img{
+    padding-bottom: 40px;
+    margin-right: 148px;
+}
+
+.N3 h1{
+    padding-bottom: 40px;
+    margin-right: 120px;
+    font-size: 36px;
+}
+
+.N3 button{
+    margin-top: 87px;
+    width: 145px;
+    height: 46px;
+    margin-right: 60px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.main .N1, .N2, .N3{
+    font-family: "Big Shoulders", sans-serif;
+    color: rgb(255, 239, 222);
+}
+
+.main p{
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.N1 button{
+    border: none;
+    text-decoration: none;
+    color: rgb(226, 133, 37);
+}
+
+.N2 button{
+    border: none;
+    text-decoration: none;
+    color: rgb(1, 105, 114);
+}
+
+.N3 button{
+    border: none;
+    text-decoration: none;
+    color: rgb(0, 64, 63);
+}
