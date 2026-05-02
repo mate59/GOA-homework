@@ -18,7 +18,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 
 .main .N1{
@@ -27,29 +26,28 @@ body{
     height: 496px;
     border-radius: 8px;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    padding: 46px;
-}
-
-.N1 img{
-    padding-bottom: 40px;
-    margin-right: 148px;
+    gap: 45px;
+    padding: 40px 20px 0px 47px;
+    overflow: none;
 }
 
 .N1 h1{
-    padding-bottom: 40px;
-    margin-right: 120px;
     font-size: 36px;
 }
 
 .N1 button{
-    margin-top: 87px;
     width: 145px;
     height: 46px;
-    margin-right: 60px;
     border-radius: 25px;
     font-weight: 500;
+    margin-top: 26px;
+}
+
+.N1 p{
+    line-height: 1.6;
+    font-size: 15px;
 }
 
 .main .N2{
@@ -57,29 +55,28 @@ body{
     width: 304px;
     height: 496px;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    padding: 46px;
-}
-
-.N2 img{
-    padding-bottom: 40px;
-    margin-right: 148px;
+    gap: 34px;
+    padding: 60px 20px 60px 47px;
+    overflow: none;
 }
 
 .N2 h1{
-    padding-bottom: 40px;
-    margin-right: 140px;
     font-size: 36px;
 }
 
 .N2 button{
-    margin-top: 87px;
     width: 145px;
     height: 46px;
-    margin-right: 60px;
     border-radius: 25px;
     font-weight: 500;
+    margin-top: 30px;
+}
+
+.N2 p{
+    line-height: 1.6;
+    font-size: 15px;
 }
 
 .main .N3{
@@ -88,29 +85,28 @@ body{
     height: 496px;
     border-radius: 8px;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    padding: 46px;
-}
-
-.N3 img{
-    padding-bottom: 40px;
-    margin-right: 148px;
+    gap: 34px;
+    padding: 60px 20px 0px 47px;
+    overflow: none;
 }
 
 .N3 h1{
-    padding-bottom: 40px;
-    margin-right: 120px;
     font-size: 36px;
 }
 
 .N3 button{
-    margin-top: 87px;
     width: 145px;
     height: 46px;
-    margin-right: 60px;
     border-radius: 25px;
     font-weight: 500;
+    margin-top: 30px;
+}
+
+.N3 p{
+    line-height: 1.6;
+    font-size: 15px;
 }
 
 .main .N1, .N2, .N3{

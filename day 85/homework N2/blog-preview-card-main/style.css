@@ -20,14 +20,19 @@ body{
     width: 384px;
     background-color: rgb(255, 255, 255);
     box-shadow: 8px 8px 0 black;
-    padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .img1{
     border-radius: 12px;
-    margin-left: 3px;
+    padding-left: 22px;
+    margin-top: 20px;
 }
 
 .main button{
@@ -36,34 +41,34 @@ body{
     border: none;
     background-color: rgb(240, 209, 83);
     border-radius: 4px;
-    margin-top: 20px;
-    margin-left: 3px;
     font-weight: 800;
     font-size: 12px;
+    margin-left: 22px;
 }
 
 .publish{
-    padding: 15px 0px 10px 3px;
     font-size: 14px;
+    margin-left: 22px;
 }
 
 .course{
     font-size: 24px;
-    padding: 7px 0px 14px 3px;
+    margin-left: 22px;
 }
 
 .info{
     color: rgb(141, 141, 141);
-    margin:  0px 0px 22px 3px;
+    line-height: 1.4;
+    margin-left: 22px;
 }
 
 .profile{
     height: 40px;
     font-size: 10px;
-    margin: 39px 0px 0px 3px;
-    padding-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-left: 23px;
 }
 
 .profile img{
@@ -72,6 +77,5 @@ body{
 }
 
 .profile h1{
-    font-size: 15px;
-    margin: 0px 0px 30px 10px;
+    font-size: 14px;
 }
