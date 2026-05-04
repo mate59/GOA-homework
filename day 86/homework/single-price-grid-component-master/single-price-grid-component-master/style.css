@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 472px;
+    width: 635px;
+    box-shadow: 0px 0px 3px cyan;
+    display: flex;
+    flex-direction: column;
+}
+
+.N1{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 14px;
+}
+
+.N1 h1{
+    font-size: 23px;
+    color: rgb(65, 170, 168);
+}
+
+.pay{
+    color: rgb(191, 223, 50);
+    font-size: 19px;
+}
+
+.info{
+    color: rgb(178, 182, 190);
+    padding-bottom: 10px;
+}
+
+.N2N3div{
+    display: flex;
+    flex-direction: row;
+}
+
+.N2N3div .N2{
+    background-color: rgb(43, 179, 177);
+    width: 316px;
+    height: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 7px;
+}
+
+.subs{
+    color: rgb(227, 255, 255);
+    font-size: 18px;
+}
+
+.dola{
+    color: rgb(253, 255, 254);
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.pay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.mont{
+    color: rgb(124, 227, 227);
+    font-size: 16px;
+}
+
+button{
+    width: 234px;
+    height: 46px;
+    background-color: rgb(191, 223, 50);
+    border: none;
+    border-radius: 5px;
+}
+
+.access{
+    color: rgb(190, 235, 238);
+    margin-bottom: 18px;
+}
+
+.N2N3div .N3{
+    background-color: rgb(74, 190, 189);
+    width: 318px;
+    height: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 16px;
+}
+
+.why{
+    color: rgb(228, 255, 255);
+    font-size: 18px;
+}
+
+.idk{
+    color: rgb(164, 237, 236);
+    font-size: 14px;
+}
