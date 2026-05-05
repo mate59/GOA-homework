@@ -27,11 +27,11 @@ body{
     justify-content: start;
     flex-direction: column;
     gap: 20px;
+    padding-left: 22px;
 }
 
 .img1{
     border-radius: 12px;
-    padding-left: 22px;
     margin-top: 20px;
 }
 
@@ -43,23 +43,19 @@ body{
     border-radius: 4px;
     font-weight: 800;
     font-size: 12px;
-    margin-left: 22px;
 }
 
 .publish{
     font-size: 14px;
-    margin-left: 22px;
 }
 
 .course{
     font-size: 24px;
-    margin-left: 22px;
 }
 
 .info{
     color: rgb(141, 141, 141);
     line-height: 1.4;
-    margin-left: 22px;
 }
 
 .profile{
@@ -68,7 +64,6 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-left: 23px;
 }
 
 .profile img{

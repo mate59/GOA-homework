@@ -28,8 +28,8 @@ body{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    padding-left: 40px;
-    gap: 14px;
+    gap: 19px;
+    padding-left: 38px;
 }
 
 .N1 h1{
@@ -44,7 +44,6 @@ body{
 
 .info{
     color: rgb(178, 182, 190);
-    padding-bottom: 10px;
 }
 
 .N2N3div{
@@ -60,7 +59,6 @@ body{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    padding-left: 40px;
     gap: 7px;
 }
 
@@ -80,7 +78,6 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 12px;
-    margin-top: 14px;
 }
 
 .mont{
@@ -98,7 +95,6 @@ button{
 
 .access{
     color: rgb(190, 235, 238);
-    margin-bottom: 18px;
 }
 
 .N2N3div .N3{
@@ -109,7 +105,6 @@ button{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    padding-left: 40px;
     gap: 16px;
 }
 
@@ -121,4 +116,22 @@ button{
 .idk{
     color: rgb(164, 237, 236);
     font-size: 14px;
+}
+
+.N2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 29px;
+    padding-left: 38px;
+}
+
+.N3{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 29px;
+    padding-left: 38px;
 }
