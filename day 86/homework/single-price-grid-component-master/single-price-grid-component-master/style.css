@@ -33,7 +33,7 @@ body{
 }
 
 .N1 h1{
-    font-size: 23px;
+    font-size: 24px;
     color: rgb(65, 170, 168);
 }
 
@@ -123,7 +123,7 @@ button{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    gap: 29px;
+    gap: 30px;
     padding-left: 38px;
 }
 
@@ -132,6 +132,5 @@ button{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    gap: 29px;
     padding-left: 38px;
 }
