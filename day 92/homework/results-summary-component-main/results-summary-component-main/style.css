@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 652px;
+    height: 455px;
+    border: 1px solid blue;
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.baby1{
+    width: 326px;
+    height: 500px;
+    background-color: rgb(53, 46, 235);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
