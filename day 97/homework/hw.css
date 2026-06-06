@@ -99,6 +99,7 @@ body{
     background-position: top left;
     background-size: 100px;
     background-repeat: no-repeat;
+    border: 1px solid white;
 }
 
 /* 5 */
