@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    transform: rotate(20deg);
+    transform-origin: bottom left;
+} */
+
+
+.div2{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    transition: background-color 2s , transform 2s , border-radius 2.5s ease-in/3s;
+}
+
+.div2:hover{
+    background-color: blue;
+    transform: rotate(400deg) translate(100px,70px);
+    border-radius: 50%;
+}
