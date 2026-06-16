@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but1{
+    height: 80px;
+    width: 100px;
+    transition: font-size 4s ease, height 2s ease-in, color 5s linear, box-shadow 3s ease-in-out;
+}
+
+.but1:hover{
+    font-size: 20px;
+    color: red;
+    box-shadow: 10px 10px white;
+}
