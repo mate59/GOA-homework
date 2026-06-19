@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000vh;
+}
+
+/* 1 */
+
+.N1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: translateX(100px);
+}
+
+/* 2 */
+
+.N2{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    transform: translateY(80px);
+}
+
+/* 3 */
+
+.n3{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: translateX(-50px);
+    margin-top: 150px;
+}
+
+/* 4 */
+
+.n4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transform: translateY(-60px);
+    margin-top: 150px;
+}
+
+/* 5 */
+
+.n5{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transform: translate(120px, 70px);
+}
+
+/* 6 */
+
+.n6{
+    height: 15px;
+    width: 60px;
+    margin-top: 230px;
+}
+
+.n6:hover{
+    transform: translate(30px, 50px);
+}
+
+/* 7 */
+
+.n7{
+    width: 150px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-top: 100px;
+    transition: transform 1s ease, box-shadow 1s ease;
+}
+
+.n7:hover{
+    transform: translateY(-30px);
+    box-shadow: 10px 10px white;
+}
+
+/* 8 */
+
+.n8{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transform: scaleX(2);
+    margin-top: 150px;
+}
+
+/* 9 */
+
+.n9{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: scaleY(1.5);
+    margin-top: 150px;
+}
+
+/* 10 */
+
+.n10{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: scale(1.5);
+    margin-top: 150px;
+}
+
+/* 11 */
+
+.n11{
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+    margin-top: 150px;
+}
+
+.n11:hover{
+    transform: scale(1.2);
+}
+
+/* 12 */
+
+.n12{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotateX(30deg);
+    margin-top: 150px;
+}
+
+/* 13 */
+
+.n13{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotateY(55deg);
+}
+
+/* 14 */
+
+.n14{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.n14:hover{
+    transform: rotate(90deg);
+}
+
+/* 15 */
+
+.n15{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 0.3s ease;
+}
+
+.n15:hover{
+    transform: rotateX(60deg);
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding-top: 260px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 40, 20);
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+
+header a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(118, 195, 127);
+    font-family: Arial;
+    transition: font-size 0.6s ease;
+}
+
+header a:hover{
+    font-size: 22px;
+}
+
+.info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 520px;
+    width: 520px;
+    font-size: 20px;
+    border: 1px solid rgb(118, 195, 127);
+    color: rgb(90, 155, 77);
+    border-radius: 10px;
+    transition: box-shadow 0.6s ease;
+}
+
+.info1:hover{
+    box-shadow:
+    0 0 5px rgb(118, 195, 127),
+    0 0 15px rgb(118, 195, 127),
+    0 0 30px rgb(118, 195, 127)
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(118, 195, 127);
+    border-radius: 10px;
+    transition: box-shadow 0.6s ease;
+}
+
+.info11:hover{
+    box-shadow:
+    0 0 5px rgb(118, 195, 127),
+    0 0 15px rgb(118, 195, 127),
+    0 0 30px rgb(118, 195, 127)
+}
+
+.info11 img{
+    width: 520px;
+    height: 520px;
+    border-radius: 10px;
+}

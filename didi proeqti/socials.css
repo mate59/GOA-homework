@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 40, 20);
+}
+
+header a{
+    font-size: 23px;
+    text-decoration: none;
+    color: rgb(118, 195, 127);
+    font-family: Arial;
+    transition: font-size 0.6s ease;
+}
+
+header a:hover{
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 160px;
+}
+
+.links,
+.info{
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(118, 195, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    border-radius: 10px;
+    transition: box-shadow 0.6s ease;
+}
+
+.links nav div{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.links nav div div a{
+    text-decoration: none;
+    color: rgb(118, 195, 127);
+    transition: text-shadow 0.4s ease;
+}
+
+.links nav div div a:hover{
+    text-shadow:
+    0 0 5px rgb(118, 195, 127),
+    0 0 15px rgb(118, 195, 127),
+    0 0 30px rgb(118, 195, 127);
+}
+
+.info:hover{
+    box-shadow: 0 0 12px rgb(118, 195, 127);
+}
+
+.links:hover{
+    box-shadow: 0 0 12px rgb(118, 195, 127);
+}
+
+.info p{
+    color: rgb(118, 195, 127);
+    padding: 30px;
+    line-height: 1.6;
+}
+
+
