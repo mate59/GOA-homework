@@ -1,0 +1,13 @@
+@keyframes showtext{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1{
+    opacity: 0;
+    animation: showtext 2s 2s forwards;
+}
