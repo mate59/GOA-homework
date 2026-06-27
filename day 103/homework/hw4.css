@@ -10,7 +10,5 @@
 button {
     padding: 15px 30px;
     font-size: 18px;
-    cursor: pointer;
-
-    animation: fsddsfs ease-in-out infinite alternate;
+    animation: btnscale 1s ease-in-out infinite alternate;
 }

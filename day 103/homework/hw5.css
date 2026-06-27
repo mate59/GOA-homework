@@ -1,0 +1,16 @@
+@keyframes fall{
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(300px);
+    }
+}
+
+.burti{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    animation: fall 1.5s ease-in infinite;
+}

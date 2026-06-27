@@ -1,0 +1,22 @@
+@keyframes magic{
+    from {
+        width: 100px;
+        height: 100px;
+        background: green;
+        transform: rotate(0deg);
+    }
+
+    to {
+        width: 200px;
+        height: 200px;
+        background: violet;
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: magic 2s 1s forwards;
+}

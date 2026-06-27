@@ -1,0 +1,14 @@
+@keyframes grow{
+    from {
+        width: 0;
+    }
+    to {
+        width: 400px;
+    }
+}
+
+.box {
+    height: 100px;
+    background: blue;
+    animation: grow 5s 1s forwards;
+}
