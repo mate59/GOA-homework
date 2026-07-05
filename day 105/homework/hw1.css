@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width: 465px;
+    height: 359px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(255, 249, 129);
+    display: grid;
+    grid-template-columns: 6px 106px 9px 222px 9px 106px 5px;
+    grid-template-rows: 110px 113px 122px;
+}
+
+
+.blue{
+    background-color: rgb(131, 178, 255);
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+.red{
+    background-color: rgb(255, 85, 94);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.green{
+    background-color: rgb(139, 241, 139);
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.red2{
+    background-color: rgb(255, 85, 94);
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.stafilosferi{
+    background-color: rgb(255, 134, 80);
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
