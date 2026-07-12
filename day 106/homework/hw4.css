@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 70px 70px;
+    height: 500px;
+    border: 2px solid black;
+    align-content: start;
+}
+
+.item{
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 20px;
+}
+

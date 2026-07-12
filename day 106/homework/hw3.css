@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width: 700px;
+    height: 250px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: start;
+    align-content: center;
+}
+
+.box1,
+.box2,
+.box3{
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
