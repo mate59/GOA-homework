@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(14, 30px);
+    grid-template-rows: repeat(10, 36px);
+    gap: 20px;
+}
+
+.child{
+    border-radius: 8px;
+}
+
+.main .white1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 6;
+    background-color: rgb(250, 238, 226);
+}
+
+.main .purple1{
+    grid-column: 4 / 11;
+    grid-row: 1 / 5;
+    background-color: rgb(118, 81, 220);
+}
+
+.main .pink1{
+    grid-column: 11 / 15 ;
+    grid-row: 1 / 8 ;
+    background-color: rgb(220, 209, 252);
+    width: 160px;
+}
+
+.main .yellow1{
+    grid-column: 1 / 4 ;
+    grid-row: 6 / 11 ;
+    background-color: rgb(255, 204, 105);
+    width: 150px;
+}
+
+.main .white2{
+    grid-column: 4 / 8 ;
+    grid-row: 5 / 11 ;
+    background-color: rgb(250, 238, 226);
+}
+
+.main .yellow2{
+    grid-column: 8 / 11 ;
+    grid-row: 5 / 8 ;
+    background-color: rgb(255, 204, 105);
+}
+
+.main .purple2{
+    grid-column: 8 / 15 ;
+    grid-row: 8 / 11 ;
+    background-color: rgb(118, 81, 220);
+    width: 310px;
+}
+
+.white1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 0.95;
+}
+
+.white1 p{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.white1 span{
+    color: rgb(121, 85, 221);
+    font-style: italic;
+}
+
+.white1 img{
+    width: 120px;
+}
+
+.purple1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.purple1 .p1{
+    color: rgb(254, 255, 255);
+    text-align: center;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+.purple1 .p2{
+    color: rgb(230, 208, 254);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.purple1 .span1{
+    color: rgb(254, 202, 107);
+}
+
+.purple1 .span2{
+    font-style: italic;
+}
+
+.purple1 img{
+    width: 130px;
+}
+
+.pink1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.pink1 img{
+    width: 180px;
+    height: 180px;
+    transform: translateX(12px);
+}
+
+.pink1 .p3{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pink1 .p4{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.yellow1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.yellow1 p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 0.9;
+}
+
+.yellow1 img{
+    width: 120px;
+    margin-top: 20px;
+}
+
+.white2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.white2 .img1{
+    width: 160px;
+    transform: translateX(30px);
+}
+
+.white2 .img2{
+    width: 120px;
+}
+
+.white2 .p5{
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+.white2 .p6{
+    font-size: 33px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.white2 .p7{
+    font-size: 10px;
+}
+
+.yellow2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.yellow2 p{
+    font-weight: 500;
+}
+
+.yellow2 img{
+    width: 120px;
+}
+
