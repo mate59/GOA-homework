@@ -233,16 +233,40 @@ body{
 }
 
 .yellow2{
+    display: flex; /* ????????? */
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
 .yellow2 img{
     width: 110px;
+    transform: translateY(30px);
 }
 
 .yellow2 p{
     line-height: 0.9;
     font-weight: 600;
+}
+
+.purple2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    z-index: 2;
+}
+
+.purple2 img{
+    width: 140px;
+    transform: translatex(15px);
+}
+
+.purple2 p{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.956;
 }
 
 
