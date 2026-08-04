@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.main div{
+    width: 33%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+@media(max-width:375px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
