@@ -60,9 +60,10 @@ header .img3{
 
 section{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
+    padding: 100px 100px;
+    background-color: rgb(240, 239, 235);
 }
 
 section .div1{
@@ -94,15 +95,17 @@ section button{
     border: none;
 }
 
+@media(max-width: 1335px){
+    section{
+        padding: 100px 50px;
+    }
 
+    section button{
+        height: 36px;
+        width: 129.72px;
+    }
 
-
-
-
-
-
-
-
+}
 
 @media(max-width: 1000px){
     header .div2{
