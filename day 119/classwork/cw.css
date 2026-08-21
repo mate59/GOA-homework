@@ -91,11 +91,90 @@ button img{
     left: 50%;
 }
 
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 101px 50px;
+    gap: 20px;
+}
+
+.clients h2{
+    font-weight: 600;
+    font-size: 35px;
+    color: #4D4D4D;
+}
+
+.clients p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #717171;
+    text-align: center;
+}
+
+.clients .client_imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.sect2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.sect2 h2{
+    font-weight: 600;
+    font-size: 31px;
+    color: #4D4D4D;
+}
+
+.sect2 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #717171;
+}
+
+.sect2_divs{
+    display: flex;
+    width: 80%;
+    gap: 250px;
+}
+
+.sect2_divs div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sect2_divs img{
+    width: 60px;
+}
+
+@media(max-width: 1400px){
+    .client_imgs{
+        padding: 0px 50px;
+        flex-wrap: wrap;
+    }
+
+    .sect2_divs{
+        flex-direction: column;
+        gap: 40px;
+        width: 50%;
+    }
+}
+
 @media(max-width: 1100px){
     #firstimg{
         width: 300px;
     }
-
+    
     .sect1 h1{
         font-size: 50px;
     }
@@ -105,30 +184,31 @@ button img{
     header{
         padding: 21px 30px;
     }
-
+    
     #mainimg{
         width: 120px;
     }
-
+    
     .sect1{
         padding: 101px 30px;
     }
-
+    
     .sect1 p{
         font-size: 14px;
     }
-
+    
     .sect1 h1{
         font-size: 40px;
     }
-
+    
     #firstimg{
         width: 250px;
     }
-
+    
     #dots{
         width: 40px;
     }
+    
 }
 
 @media(max-width: 750px){
@@ -149,5 +229,24 @@ button img{
         width: 100%;
         align-items: center;
         text-align: center;
+    }
+
+    .sect2 #community{
+        font-size: 25px;
+    }
+
+    .sect2 #question{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 450px){
+    .client_imgs{
+        gap: 0px;
+        padding: 0px;
+    }
+
+    .sect2 #community{
+        width: 70%;
     }
 }
