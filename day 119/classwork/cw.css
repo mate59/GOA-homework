@@ -116,7 +116,7 @@ button img{
 .clients .client_imgs{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 100px;
 }
 
@@ -142,8 +142,12 @@ button img{
 
 .sect2_divs{
     display: flex;
-    width: 80%;
-    gap: 250px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 0px 30px;
 }
 
 .sect2_divs div{
@@ -151,6 +155,7 @@ button img{
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    width: 330px;
 }
 
 .sect2_divs img{
@@ -161,12 +166,6 @@ button img{
     .client_imgs{
         padding: 0px 50px;
         flex-wrap: wrap;
-    }
-
-    .sect2_divs{
-        flex-direction: column;
-        gap: 40px;
-        width: 50%;
     }
 }
 
