@@ -4,9 +4,9 @@ if (age <= 0) {
     console.log("არასწორი ასაკი")
 } else {
 
-    let ticketType = prompt("შეიყვანე ბილეთის ტიპი:" .toLowerCase())
+    let ticketType = prompt("შეიყვანე ბილეთის ტიპი:") .toLowerCase()
         
-    let username = prompt("შეიყვანე მომხმარებლის სახელი:" .trim())
+    let username = prompt("შეიყვანე მომხმარებლის სახელი:") .trim()
 
     let price
 
