@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header h1{
+    padding-right: 32%;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+header p{
+    color: rgb(154, 153, 159);
+    font-weight: 400;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.maindiv h2{
+    
+}
