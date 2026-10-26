@@ -7,6 +7,8 @@ let removedNumber = numbers.pop()
 console.log(removedNumber)
 console.log(numbers)
 
+
+
 // 2
 
 let colors = ["Red", "Green", "Blue", "Black"]
