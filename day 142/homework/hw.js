@@ -69,3 +69,56 @@ while (g <= 10) {
     console.log(num + " x " + g + " = " + (num * g))
     g++
 }
+
+//8
+
+let num1 = Number(prompt("enter a positive number"))
+
+let l = 1
+
+while(i <= num1){
+    if(num % l == 0){
+        console.log(l)
+    }
+
+    l++
+}
+
+//9
+
+let b = 1
+
+let count = 0
+
+while(b <= 50){
+    if(b % 2 == 0){
+        count++
+    }
+
+    b++
+}
+
+console.log(count)
+
+//10
+
+let n = Number(prompt("ener a number"))
+
+let q = 1
+
+let sum1 = 0
+
+while(q <= n){
+    sum += i
+    i++
+}
+
+let average = sum / n
+
+console.log("sum:", sum)
+console.log("average:", average)
+
+//11
+
+
+
