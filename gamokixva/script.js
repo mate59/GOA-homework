@@ -1,9 +1,3 @@
-let num = [0, 1, 2, 3, 4, 5]
+let randomNumber = Math.floor(Math.random() * 10) + 1
 
-for (let i = 0; i < num.length() ; i++){
-    if (nums[i] % 2 === 0){
-        console.log(nums[i])
-    }
-}
-
-
+console.log(randomNumber)

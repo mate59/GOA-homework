@@ -24,7 +24,7 @@ console.log(productsString)
 
 
 
-// // 2 
+// 2 
 
 
 
